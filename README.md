@@ -10,6 +10,53 @@ Welcome to **CryptoVerse**, a comprehensive educational platform built to demyst
 Designed for both absolute beginners and advanced learners, CryptoVerse provides a safe, interactive, and engaging environment to learn about digital assets without any financial risk. Whether you are looking to understand the fundamental mechanics of blockchain, learn how to analyze cryptocurrency markets, or practice trading with a virtual portfolio, this platform has everything you need.
 
 Our mission is to bridge the knowledge gap in the Web3 space by combining guided theoretical lessons with hands-on, practical tools. By offering interactive cryptographic labs and a real-time simulated trading environment, we empower users to confidently navigate the decentralized economy.
+
+---
+
+## 📸 Visual Walkthrough & Screenshots
+
+### 🏠 1. Landing Page — Education Without the Noise
+A modern, dark-themed hero interface introducing zero-risk crypto learning, interactive modules, and guided entry points.
+
+![CryptoVerse Landing Page](screenshots/image1.png)
+
+---
+
+### 🔐 2. Authentication & Onboarding
+Distraction-free, secure account creation with real-time client and server-side validation.
+
+![CryptoVerse Sign Up](screenshots/image2.png)
+
+---
+
+### 📊 3. Student Command Center & Dashboard
+A unified learner hub featuring daily streak counters, XP level progression, quick-resume lesson cards, and live simulated market trends.
+
+![CryptoVerse Dashboard](screenshots/image3.png)
+
+---
+
+### 🎓 4. Interactive Learning Hub & Curriculum
+A modular 15-lesson roadmap guiding students from core blockchain mechanics to advanced cryptography, equipped with dual explanations (*Simple* vs. *Protocol Specs*) and instant knowledge quizzes.
+
+![CryptoVerse Learning Hub](screenshots/image4.png)
+
+---
+
+### 📈 5. Live Market Overview & Discovery
+Simulated live market feed displaying total market cap, top gainers, 24-hour volume, and anti-unit-bias educational metrics.
+
+![CryptoVerse Market Overview](screenshots/image5.png)
+
+---
+
+### 💹 6. Risk-Free $100,000 Paper Trading Terminal
+A realistic trading desk featuring interactive candlestick and line charts, technical indicators (MA20, MA50, Volume), and multiple order types (Market, Limit, Stop-limit) backed by an atomic transaction ledger.
+
+![CryptoVerse Paper Trading Terminal](screenshots/image6.png)
+
+---
+
 ## 💡 Core Features & Innovations
 
 ### 1. Interactive 3D Blockchain Protocol Labs
@@ -116,10 +163,18 @@ cryptoverse/
 ├── database/                 # Database Schemas & Migrations
 │   └── schema.sql            # Full MySQL schema & curriculum seed data
 │
-└── includes/                 # Core Backend Modules
-    ├── auth.php              # Authentication & session service
-    ├── functions.php         # Utility functions
-    └── header.php            # Global header template
+├── includes/                 # Core Backend Modules
+│   ├── auth.php              # Authentication & session service
+│   ├── functions.php         # Utility functions
+│   └── header.php            # Global header template
+│
+└── screenshots/              # Application UI walkthrough & preview screenshots
+    ├── image1.png            # Landing Page & Hero
+    ├── image2.png            # Sign Up / Authentication
+    ├── image3.png            # Student Dashboard & XP Tracking
+    ├── image4.png            # Learning Hub & Roadmap
+    ├── image5.png            # Markets Overview
+    └── image6.png            # $100k Paper Trading Terminal
 ```
 
 ---
